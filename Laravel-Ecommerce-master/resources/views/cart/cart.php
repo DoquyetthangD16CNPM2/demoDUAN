@@ -181,7 +181,7 @@
 ?>
 <!-- Giohang  -->
     <div class="cart__body">
-        <a class="buy_continute" href="index.php"><i class="fa fa-arrow-circle-left"></i> Tiếp tục mua hàng</a>
+        <a class="buy_continute" href="index.php"><i class="fa fa-arrow-circle-left"></i> mua hàng</a>
         
         <form method="POST" action="" id="getinfo_form">
             <div class="row">
@@ -279,14 +279,14 @@
                                     
 
                                     <div class="address">
-                                        <h6>Tỉnh / Thành Phố</h6>
+                                        <h6>Tỉnh/Thành Phố</h6>
                                         <select name="calc_shipping_provinces" required>
                                             <option value="">Tỉnh/Tp</option>
                                         </select>
                                     </div>
 
                                     <div class="address">
-                                        <h6>Quận / Huyện</h6>
+                                        <h6>Quận/Huyện</h6>
                                         <select name="calc_shipping_district" required>
                                             <option value="">Quận/Huyện</option>
                                         </select>
@@ -311,17 +311,17 @@
                             <br>
                             <br>
                             <div class="body__mainTitle">
-                                <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+                                <h2>CÁCH THANH TOÁN</h2>
                             </div>
 
                             <div class="phuongthuctt">
                                 <input type="radio" id="op1" name="op1" required>
-                                <label for="op1">Chuyển khoản</label>
+                                <label for="op1">Chuyểnkhoản</label>
 
                                 <br>
 
                                 <input type="radio" id="op2" name="op1">
-                                <label for="op2">Trả tiền khi nhận hàng</label>
+                                <label for="op2">pay khi nhận hàng</label>
                             </div>
                             
                             <div class="total">
