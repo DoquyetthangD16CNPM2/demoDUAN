@@ -325,7 +325,7 @@
                             </div>
                             
                             <div class="total">
-                                <h5>Tổng thanh toán</h5>
+                                <h5>Tổng thanhtoán</h5>
                                 <br>
 
                                 <div class="product__pride-newPride" style="font-size: 25px;">
