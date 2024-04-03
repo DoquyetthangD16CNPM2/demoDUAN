@@ -16,7 +16,8 @@
 
 
     if(isset($_POST['buy-now'])){
-        if(isset( $_SESSION['cart'][$id])){ // san pham thi cong don sl
+        if(isset( $_SESSION['cart'][$id])){ // Sản phẩm thi công số lượng
+            
             $_SESSION['cart'][$id]['quantity'] += $quantity;
             header('Location: index.php?page=cart');
         }
