@@ -279,7 +279,7 @@
                                     
 
                                     <div class="address">
-                                        <h6>Tỉnh / Thành Phố</h6>
+                                        <h6>Tỉnh/Thành Phố</h6>
                                         <select name="calc_shipping_provinces" required>
                                             <option value="">Tỉnh/Tp</option>
                                         </select>
