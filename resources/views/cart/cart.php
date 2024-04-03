@@ -181,7 +181,7 @@
 ?>
 <!-- Giohang  -->
     <div class="cart__body">
-        <a class="buy_continute" href="index.php"><i class="fa fa-arrow-circle-left"></i> Tiếp tục mua hàng</a>
+        <a class="buy_continute" href="index.php"><i class="fa fa-arrow-circle-left"></i> mua hàng</a>
         
         <form method="POST" action="" id="getinfo_form">
             <div class="row">
