@@ -286,7 +286,7 @@
                                     </div>
 
                                     <div class="address">
-                                        <h6>Quận / Huyện</h6>
+                                        <h6>Quận/Huyện</h6>
                                         <select name="calc_shipping_district" required>
                                             <option value="">Quận/Huyện</option>
                                         </select>
