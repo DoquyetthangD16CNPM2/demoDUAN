@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1>Dashboard</h1>
+                <h1>Dashboar</h1>
             </div>
             <div class="col-sm-6">
 
@@ -22,7 +22,7 @@
             <div class="col-lg-4 col-6">
                 <div class="small-box card">
                     <div class="inner">
-                        <h3>150</h3>
+                        <h3>15</h3>
                         <p>Total Orders</p>
                     </div>
                     <div class="icon">
@@ -66,6 +66,6 @@
 
 @section('custom-js')
     <script>
-        console.log("thang dep trai ");
+        console.log("THANG ");
     </script>
 @endsection

@@ -13,7 +13,7 @@ class CategoryController extends Controller
 {
     public function index(Request $request)
     {
-//        $categories = Category::all(); // Lấy tất cả các bản ghi từ bảng categories
+//        $categories = Category::all(); // Lấy tất cả bản ghi từ bảng categories
 
         $categories = Category::when($request->search, function ($query, $searchTerm) {
             return $query->where('name', 'like', '%' . $searchTerm . '%')
