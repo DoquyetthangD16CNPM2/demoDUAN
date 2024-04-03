@@ -123,7 +123,7 @@
         }
         
         else{
-            echo "<script>alert('Bạn cần đăng nhập để sử dụng chức năng này');</script>";
+            echo "<script>alert('Bạn cần đăng nhập sử dụng chức năng');</script>";
         }
     }
 
