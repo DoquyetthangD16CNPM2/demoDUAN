@@ -16,7 +16,7 @@
 
 
     if(isset($_POST['buy-now'])){
-        if(isset( $_SESSION['cart'][$id])){ //co san pham thi cong don sl
+        if(isset( $_SESSION['cart'][$id])){ // san pham thi cong don sl
             $_SESSION['cart'][$id]['quantity'] += $quantity;
             header('Location: index.php?page=cart');
         }
