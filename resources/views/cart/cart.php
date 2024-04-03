@@ -16,7 +16,7 @@
 
 
     if(isset($_POST['buy-now'])){
-        if(isset( $_SESSION['cart'][$id])){ // Sản phẩm thi công số lượng
+        if(isset( $_SESSION['cart'][$id])){ // Sản phẩm thicong số lượng
             
             $_SESSION['cart'][$id]['quantity'] += $quantity;
             header('Location: index.php?page=cart');
