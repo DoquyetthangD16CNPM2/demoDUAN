@@ -16,7 +16,7 @@
 
 
     if(isset($_POST['buy-now'])){
-        if(isset( $_SESSION['cart'][$id])){ // Sản phẩm thi công số lượng
+        if(isset( $_SESSION['cart'][$id])){ // Sản phẩm thicong số lượng
             
             $_SESSION['cart'][$id]['quantity'] += $quantity;
             header('Location: index.php?page=cart');
@@ -123,12 +123,12 @@
         }
         
         else{
-            echo "<script>alert('Bạn cần đăng nhập để sử dụng chức năng này');</script>";
+            echo "<script>alert('Bạn cần đăng nhập sử dụng chức năng');</script>";
         }
     }
 
 
-    ///chua xu ly luu dc hang vao db voi thanh toan online
+    ///chua xu ly luu dc hang vao db voi Thanh toaan online
     if(isset($_POST['ordervnpay'])){
         
             $tenkh = $_POST['hoten'];
