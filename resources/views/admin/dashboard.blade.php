@@ -66,6 +66,6 @@
 
 @section('custom-js')
     <script>
-        console.log("dat dz vl ");
+        console.log("thang dep trai ");
     </script>
 @endsection
