@@ -21,7 +21,7 @@
             $_SESSION['cart'][$id]['quantity'] += $quantity;
             header('Location: index.php?page=cart');
         }
-        else{ //chua co thi tao moi san pham
+        else{ //chua co thi tao moi sp
             $_SESSION['cart'][$id] = [
                 'id' => $product['id_sanpham'],
                 'name' => $product['tensp'],
