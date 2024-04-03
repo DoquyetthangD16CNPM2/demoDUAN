@@ -128,7 +128,7 @@
     }
 
 
-    ///chua xu ly luu dc hang vao db voi thanh toan online
+    ///chua xu ly luu dc hang vao db voi Thanh toaan online
     if(isset($_POST['ordervnpay'])){
         
             $tenkh = $_POST['hoten'];
