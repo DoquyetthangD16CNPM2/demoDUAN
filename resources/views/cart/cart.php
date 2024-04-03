@@ -321,7 +321,7 @@
                                 <br>
 
                                 <input type="radio" id="op2" name="op1">
-                                <label for="op2">Trả tiền khi nhận hàng</label>
+                                <label for="op2">pay khi nhận hàng</label>
                             </div>
                             
                             <div class="total">
