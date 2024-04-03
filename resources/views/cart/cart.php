@@ -255,7 +255,7 @@
                     <div>
                         <div class="cart__info">
                             <div class="body__mainTitle">
-                                <h2>ĐC NHẬN HÀNG</h2>
+                                <h2>ĐỊA CHỈ NHẬN HÀNG</h2>
                             </div>
                             <center>
                                 <div class="cart__info-form">
