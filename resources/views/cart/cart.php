@@ -311,7 +311,7 @@
                             <br>
                             <br>
                             <div class="body__mainTitle">
-                                <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+                                <h2>CÁCH THANH TOÁN</h2>
                             </div>
 
                             <div class="phuongthuctt">
