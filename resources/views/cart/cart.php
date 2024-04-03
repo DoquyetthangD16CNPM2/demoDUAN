@@ -316,7 +316,7 @@
 
                             <div class="phuongthuctt">
                                 <input type="radio" id="op1" name="op1" required>
-                                <label for="op1">Chuyển khoản</label>
+                                <label for="op1">Chuyểnkhoản</label>
 
                                 <br>
 
